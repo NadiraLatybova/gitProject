@@ -15,6 +15,9 @@
     display: flex;
     column-gap: 30px;
 }
+.heading2{
+    color: pink;
+}
 
 .button{
     border-radius: 1000px;
