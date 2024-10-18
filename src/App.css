@@ -1,28 +1,39 @@
-.wrapper{
-    width: 100%;
-    height: 90vh;
+
+.wrapper {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-}
-.heading{
-    font-size: 45px;
-    font-family: 'Area',sans-serif;
+    justify-content: center;
+    height: 100vh;
+    background-color: #282c34;
+    color: white;
 }
 
-.buttons{
+.heading {
+    font-size: 4rem;
+    margin: 1rem;
+}
+
+.buttons {
     display: flex;
-    column-gap: 30px;
-}
-.heading2{
-    color: pink;
+    gap: 1rem;
 }
 
-.button{
-    border-radius: 1000px;
-    padding: 10px;
-    width: 64px;
-    height: 64px;
-    font-size: 30px;
+.button {
+    padding: 0.5rem 1rem;
+    font-size: 2rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.button:hover {
+    background-color: #61dafb;
+}
+
+.heading2 {
+    margin-top: 2rem;
+    font-size: 2rem;
+    text-transform: uppercase;
 }
